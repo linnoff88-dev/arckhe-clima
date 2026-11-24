@@ -10,7 +10,7 @@ Skill de **Claude Code** que consulta clima atual e previsÃ£o do tempo de qual
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/clima/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
 A graÃ§a nÃ£o Ã© despejar a tabela do tempo: Ã© responder a pergunta que a pessoa fez de verdade. Quem pergunta *"levo guarda-chuva?"* quer ouvir **leva** ou **nÃ£o precisa**, com o motivo em seguida â€” nÃ£o sete linhas de dados horÃ¡rios.
 
@@ -25,7 +25,7 @@ evals/evals.json    casos de teste
 ## InstalaÃ§Ã£o
 
 ```bash
-git clone https://github.com/inematds/clima
+git clone https://github.com/linnoff88-dev/clima
 cp -r clima ~/.claude/skills/clima
 ```
 
