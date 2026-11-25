@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>clima â€” a previsÃ£o do tempo respondida como decisÃ£o, nÃ£o como tabela</title>
-<meta name="description" content="Skill de Claude Code que consulta clima e previsÃ£o de qualquer cidade do mundo via Open-Meteo, sem API key, e responde em PT-BR com a decisÃ£o na frente: leva guarda-chuva ou nÃ£o.">
+<title>clima ê¢â¬â a previsêÂ£o do tempo respondida como decisêÂ£o, nêÂ£o como tabela</title>
+<meta name="description" content="Skill de Claude Code que consulta clima e previsêÂ£o de qualquer cidade do mundo via Open-Meteo, sem API key, e responde em PT-BR com a decisêÂ£o na frente: leva guarda-chuva ou nêÂ£o.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -36,8 +36,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .ARCKHÉ{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .ARCKHÉ:hover{filter:brightness(1.15)}
+  nav .ARCKHê{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .ARCKHê:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -99,21 +99,21 @@
 <body>
 
 <nav><div class="wrap">
-  <a class="brand" href="#top"><span class="emoji">ðŸŒ¦ï¸</span> clima</a>
+  <a class="brand" href="#top"><span class="emoji">ê°Å¸ÅÂ¦ê¯Â¸Â</span> clima</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
+    <a class="ARCKHê" href="https://ARCKHê AI" target="_blank" rel="noopener">ARCKHê AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHê.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
-    <a class="sec" href="#oque">O que Ã©</a>
+    <a class="sec" href="#oque">O que êÂ©</a>
     <a class="sec" href="#fluxo">Como funciona</a>
-    <a class="sec" href="#pre">PrÃ©-requisitos</a>
+    <a class="sec" href="#pre">PrêÂ©-requisitos</a>
     <a class="sec" href="#guia">Guia de uso</a>
     <a class="sec" href="#exemplos">Exemplos</a>
     <a class="sec" href="#roadmap">Roadmap</a>
-    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">ðŸŒ™</button>
+    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">ê°Å¸Åâ¢</button>
     <a class="btn" href="https://github.com/linnoff88-dev/clima" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></nav>
@@ -122,51 +122,51 @@
   <div class="glow"></div>
   <div class="wrap">
     <div>
-      <span class="chip">Skill Â· Claude Code</span>
-      <h1>"Levo guarda-chuva?" merece um <span class="amb">sim ou nÃ£o</span> â€” nÃ£o uma tabela.</h1>
-      <p class="lead">Skill que consulta o tempo de qualquer cidade do mundo via Open-Meteo, sem API key, e responde com a decisÃ£o na frente.</p>
+      <span class="chip">Skill êÂ· Claude Code</span>
+      <h1>"Levo guarda-chuva?" merece um <span class="amb">sim ou nêÂ£o</span> ê¢â¬â nêÂ£o uma tabela.</h1>
+      <p class="lead">Skill que consulta o tempo de qualquer cidade do mundo via Open-Meteo, sem API key, e responde com a decisêÂ£o na frente.</p>
       <div class="cta">
-        <a class="btn" href="#guia">ComeÃ§ar o guia</a>
+        <a class="btn" href="#guia">ComeêÂ§ar o guia</a>
         <a class="btn ghost" href="https://github.com/linnoff88-dev/clima" target="_blank" rel="noopener">Ver no GitHub</a>
       </div>
     </div>
-    <figure><img src="assets/hero.png" alt="clima â€” skill de previsÃ£o do tempo para Claude Code"></figure>
+    <figure><img src="assets/hero.png" alt="clima ê¢â¬â skill de previsêÂ£o do tempo para Claude Code"></figure>
   </div>
 </header>
 
 <section id="oque"><div class="wrap">
-  <span class="chip">O que Ã©</span>
-  <h2>PrevisÃ£o do tempo que responde a pergunta certa</h2>
-  <p class="sub">A maior parte das perguntas sobre tempo nÃ£o Ã© sobre tempo â€” Ã© sobre uma decisÃ£o que depende dele. A skill trata a previsÃ£o como insumo, nÃ£o como produto.</p>
+  <span class="chip">O que êÂ©</span>
+  <h2>PrevisêÂ£o do tempo que responde a pergunta certa</h2>
+  <p class="sub">A maior parte das perguntas sobre tempo nêÂ£o êÂ© sobre tempo ê¢â¬â êÂ© sobre uma decisêÂ£o que depende dele. A skill trata a previsêÂ£o como insumo, nêÂ£o como produto.</p>
   <div class="grid g3">
-    <div class="card"><h3>ðŸŽ¯ DecisÃ£o na frente</h3><p>Pergunta fechada ganha resposta fechada. "Leva sim â€” a chance bate 65% entre 15h e 18h." Os nÃºmeros vÃªm depois, e sÃ³ os que importam pra <em>aquela</em> pergunta.</p></div>
-    <div class="card"><h3>ðŸ”“ Sem API key</h3><p>Usa a Open-Meteo: pÃºblica, gratuita, cobertura mundial, previsÃ£o de atÃ© 16 dias. Nada de cadastro, chave no <code>.env</code> ou cota estourando no meio do mÃªs.</p></div>
-    <div class="card"><h3>ðŸ“Š Modo lote</h3><p>Comparar lugares Ã© uma requisiÃ§Ã£o sÃ³ â€” as 27 capitais do Brasil, ou qualquer lista de cidades, jÃ¡ ordenadas da mais quente pra mais fria.</p></div>
+    <div class="card"><h3>ê°Å¸Å½Â¯ DecisêÂ£o na frente</h3><p>Pergunta fechada ganha resposta fechada. "Leva sim ê¢â¬â a chance bate 65% entre 15h e 18h." Os nêÂºmeros vêÂªm depois, e sêÂ³ os que importam pra <em>aquela</em> pergunta.</p></div>
+    <div class="card"><h3>ê°Å¸ââ Sem API key</h3><p>Usa a Open-Meteo: pêÂºblica, gratuita, cobertura mundial, previsêÂ£o de atêÂ© 16 dias. Nada de cadastro, chave no <code>.env</code> ou cota estourando no meio do mêÂªs.</p></div>
+    <div class="card"><h3>ê°Å¸âÅ  Modo lote</h3><p>Comparar lugares êÂ© uma requisiêÂ§êÂ£o sêÂ³ ê¢â¬â as 27 capitais do Brasil, ou qualquer lista de cidades, jêÂ¡ ordenadas da mais quente pra mais fria.</p></div>
   </div>
 </div></section>
 
 <section id="fluxo"><div class="wrap">
   <span class="chip">Como funciona</span>
-  <h2>Da frase solta ao nÃºmero certo</h2>
-  <p class="sub">VocÃª nÃ£o chama comando nenhum: fala normalmente e a skill dispara. O trabalho chato â€” achar a cidade, traduzir os 28 cÃ³digos WMO, formatar em PT-BR â€” jÃ¡ vem pronto no script bundlado, entÃ£o o Claude gasta o esforÃ§o em interpretar o que vocÃª quis saber.</p>
+  <h2>Da frase solta ao nêÂºmero certo</h2>
+  <p class="sub">VocêÂª nêÂ£o chama comando nenhum: fala normalmente e a skill dispara. O trabalho chato ê¢â¬â achar a cidade, traduzir os 28 cêÂ³digos WMO, formatar em PT-BR ê¢â¬â jêÂ¡ vem pronto no script bundlado, entêÂ£o o Claude gasta o esforêÂ§o em interpretar o que vocêÂª quis saber.</p>
   <div class="flow">
-    <span>VocÃª pergunta em PT-BR</span><span class="arr">â†’</span>
-    <span>Geocoding da cidade</span><span class="arr">â†’</span>
-    <span>Open-Meteo</span><span class="arr">â†’</span>
-    <span>Recorte do que importa</span><span class="arr">â†’</span>
-    <span>DecisÃ£o + 2-3 nÃºmeros</span>
+    <span>VocêÂª pergunta em PT-BR</span><span class="arr">ê¢â â</span>
+    <span>Geocoding da cidade</span><span class="arr">ê¢â â</span>
+    <span>Open-Meteo</span><span class="arr">ê¢â â</span>
+    <span>Recorte do que importa</span><span class="arr">ê¢â â</span>
+    <span>DecisêÂ£o + 2-3 nêÂºmeros</span>
   </div>
   <div class="grid g3" style="margin-top:26px">
-    <div class="card"><h3>ðŸ—ºï¸ Acha a cidade sozinho</h3><p>Nome em portuguÃªs, com ou sem acento, Brasil ou exterior. Se nÃ£o existir, ele avisa em vez de chutar outra parecida.</p></div>
-    <div class="card"><h3>ðŸ• Escolhe o recorte</h3><p>Pergunta de horÃ¡rio puxa o hora a hora; pergunta de fim de semana puxa os dias; pergunta de comparaÃ§Ã£o puxa o lote.</p></div>
-    <div class="card"><h3>âš ï¸ Mostra a ambiguidade</h3><p>HomÃ´nimas grandes o bastante pra confundir (Springfield tem quatro) aparecem no aviso. Vilarejo irrelevante, nÃ£o â€” seria sÃ³ ruÃ­do.</p></div>
+    <div class="card"><h3>ê°Å¸âÂºê¯Â¸Â Acha a cidade sozinho</h3><p>Nome em portuguêÂªs, com ou sem acento, Brasil ou exterior. Se nêÂ£o existir, ele avisa em vez de chutar outra parecida.</p></div>
+    <div class="card"><h3>ê°Å¸â¢Â Escolhe o recorte</h3><p>Pergunta de horêÂ¡rio puxa o hora a hora; pergunta de fim de semana puxa os dias; pergunta de comparaêÂ§êÂ£o puxa o lote.</p></div>
+    <div class="card"><h3>ê¢Å¡Â ê¯Â¸Â Mostra a ambiguidade</h3><p>HomêÂ´nimas grandes o bastante pra confundir (Springfield tem quatro) aparecem no aviso. Vilarejo irrelevante, nêÂ£o ê¢â¬â seria sêÂ³ ruêÂ­do.</p></div>
   </div>
 </div></section>
 
 <section id="pre"><div class="wrap">
-  <span class="chip">PrÃ©-requisitos</span>
+  <span class="chip">PrêÂ©-requisitos</span>
   <h2>Node 18 e mais nada</h2>
-  <p class="sub">Sem dependÃªncias, sem <code>npm install</code>, sem chave de API, sem serviÃ§o no ar. O script usa o <code>fetch</code> nativo do Node.</p>
+  <p class="sub">Sem dependêÂªncias, sem <code>npm install</code>, sem chave de API, sem serviêÂ§o no ar. O script usa o <code>fetch</code> nativo do Node.</p>
   <div class="grid g3">
     <div class="card"><h3>Claude Code</h3><p>O CLI da Anthropic, que carrega skills da pasta <code>~/.claude/skills/</code>.</p><pre><span class="k">claude</span> --version</pre></div>
     <div class="card"><h3>Node 18+</h3><p>Precisa do <code>fetch</code> global, que entrou no Node 18.</p><pre><span class="k">node</span> --version   <span class="c"># v18 ou maior</span></pre></div>
@@ -175,9 +175,9 @@
 </div></section>
 
 <section id="guia"><div class="wrap">
-  <span class="chip">Guia de uso Â· passo a passo</span>
+  <span class="chip">Guia de uso êÂ· passo a passo</span>
   <h2>Instalar e perguntar</h2>
-  <p class="sub">TrÃªs passos atÃ© a primeira resposta. O resto Ã© conversa normal.</p>
+  <p class="sub">TrêÂªs passos atêÂ© a primeira resposta. O resto êÂ© conversa normal.</p>
 
   <div class="step"><div class="b">1</div><div>
     <h3>Clone e instale a skill</h3>
@@ -188,115 +188,115 @@
 
   <div class="step"><div class="b">2</div><div>
     <h3>Confirme que registrou</h3>
-    <p>No Claude Code, liste as skills disponÃ­veis.</p>
+    <p>No Claude Code, liste as skills disponêÂ­veis.</p>
 <pre><span class="k">/skills</span>   <span class="c"># clima deve aparecer na lista</span></pre>
   </div></div>
 
   <div class="step"><div class="b">3</div><div>
     <h3>Pergunte em linguagem natural</h3>
-    <p>VocÃª nÃ£o precisa dizer "consulte o clima" â€” a skill dispara tambÃ©m nas perguntas indiretas, que sÃ£o a maioria.</p>
+    <p>VocêÂª nêÂ£o precisa dizer "consulte o clima" ê¢â¬â a skill dispara tambêÂ©m nas perguntas indiretas, que sêÂ£o a maioria.</p>
 <pre><span class="c"># direta</span>
-como tÃ¡ o tempo em Floripa?
+como têÂ¡ o tempo em Floripa?
 
-<span class="c"># decisÃ£o</span>
-posso gravar externa amanhÃ£ de manhÃ£?
+<span class="c"># decisêÂ£o</span>
+posso gravar externa amanhêÂ£ de manhêÂ£?
 levo guarda-chuva hoje?
 
-<span class="c"># comparaÃ§Ã£o</span>
+<span class="c"># comparaêÂ§êÂ£o</span>
 temperatura das capitais agora</pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
     <h3>Ou rode o script direto</h3>
-    <p>Ãštil quando vocÃª quer os dados crus pra outra coisa â€” o <code>--json</code> devolve tudo estruturado.</p>
+    <p>êÅ¡til quando vocêÂª quer os dados crus pra outra coisa ê¢â¬â o <code>--json</code> devolve tudo estruturado.</p>
 <pre><span class="k">node</span> ~/.claude/skills/clima/scripts/clima.mjs <span class="s">"Porto Alegre"</span>
-<span class="k">node</span> ~/.claude/skills/clima/scripts/clima.mjs <span class="s">"SÃ£o Paulo"</span> --horas
+<span class="k">node</span> ~/.claude/skills/clima/scripts/clima.mjs <span class="s">"SêÂ£o Paulo"</span> --horas
 <span class="k">node</span> ~/.claude/skills/clima/scripts/clima.mjs --lote capitais
 <span class="k">node</span> ~/.claude/skills/clima/scripts/clima.mjs --lote <span class="s">"Recife,Natal,Salvador"</span></pre>
   </div></div>
 
-  <h3 style="margin-top:36px;margin-bottom:10px">Todas as opÃ§Ãµes</h3>
+  <h3 style="margin-top:36px;margin-bottom:10px">Todas as opêÂ§êÂµes</h3>
   <div class="tablewrap"><table>
-    <tr><th>OpÃ§Ã£o</th><th>O que faz</th></tr>
-    <tr><td><code>(nada)</code></td><td>agora + prÃ³ximos 3 dias â€” cobre a maioria das perguntas</td></tr>
-    <tr><td><code>--dias N</code></td><td>previsÃ£o de N dias, de 1 a 16</td></tr>
-    <tr><td><code>--horas</code></td><td>hora a hora das 06h Ã s 22h, de 2 em 2, hoje e amanhÃ£</td></tr>
-    <tr><td><code>--dia AAAA-MM-DD</code></td><td>foca num dia especÃ­fico; combine com <code>--horas</code></td></tr>
+    <tr><th>OpêÂ§êÂ£o</th><th>O que faz</th></tr>
+    <tr><td><code>(nada)</code></td><td>agora + prêÂ³ximos 3 dias ê¢â¬â cobre a maioria das perguntas</td></tr>
+    <tr><td><code>--dias N</code></td><td>previsêÂ£o de N dias, de 1 a 16</td></tr>
+    <tr><td><code>--horas</code></td><td>hora a hora das 06h êÂ s 22h, de 2 em 2, hoje e amanhêÂ£</td></tr>
+    <tr><td><code>--dia AAAA-MM-DD</code></td><td>foca num dia especêÂ­fico; combine com <code>--horas</code></td></tr>
     <tr><td><code>--lote capitais</code></td><td>as 27 capitais do Brasil, ordenadas por temperatura</td></tr>
-    <tr><td><code>--lote "A,B,C"</code></td><td>compara as cidades listadas, em qualquer paÃ­s</td></tr>
+    <tr><td><code>--lote "A,B,C"</code></td><td>compara as cidades listadas, em qualquer paêÂ­s</td></tr>
     <tr><td><code>--json</code></td><td>dados crus, pra montar tabela ou calcular algo</td></tr>
   </table></div>
 </div></section>
 
 <section id="exemplos"><div class="wrap">
   <span class="chip">Exemplos</span>
-  <h2>SaÃ­da de verdade</h2>
-  <p class="sub">Tudo abaixo saiu do script rodando, nÃ£o Ã© ilustraÃ§Ã£o.</p>
+  <h2>SaêÂ­da de verdade</h2>
+  <p class="sub">Tudo abaixo saiu do script rodando, nêÂ£o êÂ© ilustraêÂ§êÂ£o.</p>
   <div class="grid g2">
     <div class="card">
-      <h3>ðŸŒ¦ï¸ Consulta padrÃ£o</h3>
-      <p style="margin-bottom:12px">Agora + 3 dias, com nascer e pÃ´r do sol.</p>
+      <h3>ê°Å¸ÅÂ¦ê¯Â¸Â Consulta padrêÂ£o</h3>
+      <p style="margin-bottom:12px">Agora + 3 dias, com nascer e pêÂ´r do sol.</p>
 <pre><span class="c">$ node scripts/clima.mjs "Porto Alegre"</span>
 
-ðŸ“ Porto Alegre, Rio Grande do Sul, Brasil
+ê°Å¸âÂ Porto Alegre, Rio Grande do Sul, Brasil
 
-AGORA (16:00) â€” â˜€ï¸ cÃ©u limpo
-  19.7Â°C (sensaÃ§Ã£o 18.4Â°C) Â· umidade 68% Â· vento 16.9 km/h
+AGORA (16:00) ê¢â¬â ê¢Ëâ¬ê¯Â¸Â cêÂ©u limpo
+  19.7êÂ°C (sensaêÂ§êÂ£o 18.4êÂ°C) êÂ· umidade 68% êÂ· vento 16.9 km/h
 
-PREVISÃƒO
-  30/07 hoje    ðŸŒ¦ï¸ garoa fraca      14â€“21Â°C Â· chuva   6%
-  31/07 amanhÃ£  â˜ï¸ nublado          14â€“24Â°C Â· chuva   0%
-  01/08 sÃ¡bado  ðŸŒ¦ï¸ pancadas fracas  15â€“30Â°C Â· chuva  49%
-  sol hoje: nasce 07:11 Â· se pÃµe 17:51</pre>
+PREVISêÆO
+  30/07 hoje    ê°Å¸ÅÂ¦ê¯Â¸Â garoa fraca      14ê¢â¬â21êÂ°C êÂ· chuva   6%
+  31/07 amanhêÂ£  ê¢ËÂê¯Â¸Â nublado          14ê¢â¬â24êÂ°C êÂ· chuva   0%
+  01/08 sêÂ¡bado  ê°Å¸ÅÂ¦ê¯Â¸Â pancadas fracas  15ê¢â¬â30êÂ°C êÂ· chuva  49%
+  sol hoje: nasce 07:11 êÂ· se pêÂµe 17:51</pre>
     </div>
     <div class="card">
-      <h3>ðŸ“Š Modo lote</h3>
-      <p style="margin-bottom:12px">27 capitais numa requisiÃ§Ã£o, jÃ¡ ordenadas, com a amplitude no fim.</p>
+      <h3>ê°Å¸âÅ  Modo lote</h3>
+      <p style="margin-bottom:12px">27 capitais numa requisiêÂ§êÂ£o, jêÂ¡ ordenadas, com a amplitude no fim.</p>
 <pre><span class="c">$ node scripts/clima.mjs --lote capitais</span>
 
-ðŸŒ¡ï¸  agora â€” 27 lugares em fusos diferentes
+ê°Å¸ÅÂ¡ê¯Â¸Â  agora ê¢â¬â 27 lugares em fusos diferentes
 
-   34.9Â°C  sens 33.4Â°C  Palmas/TO      â˜€ï¸ cÃ©u limpo
-   33.8Â°C  sens 35.3Â°C  Manaus/AM      â˜€ï¸ cÃ©u limpo
-   33.8Â°C  sens 37.4Â°C  Porto Velho/RO â˜ï¸ nublado
+   34.9êÂ°C  sens 33.4êÂ°C  Palmas/TO      ê¢Ëâ¬ê¯Â¸Â cêÂ©u limpo
+   33.8êÂ°C  sens 35.3êÂ°C  Manaus/AM      ê¢Ëâ¬ê¯Â¸Â cêÂ©u limpo
+   33.8êÂ°C  sens 37.4êÂ°C  Porto Velho/RO ê¢ËÂê¯Â¸Â nublado
    ...
-   19.3Â°C  sens 19.0Â°C  SÃ£o Paulo/SP   â˜ï¸ nublado
-   17.2Â°C  sens 16.4Â°C  Curitiba/PR    â˜ï¸ nublado
+   19.3êÂ°C  sens 19.0êÂ°C  SêÂ£o Paulo/SP   ê¢ËÂê¯Â¸Â nublado
+   17.2êÂ°C  sens 16.4êÂ°C  Curitiba/PR    ê¢ËÂê¯Â¸Â nublado
 
-  amplitude: 17.8Â°C entre Palmas/TO e Curitiba/PR</pre>
+  amplitude: 17.8êÂ°C entre Palmas/TO e Curitiba/PR</pre>
     </div>
   </div>
   <div class="card" style="margin-top:16px">
-    <h3>ðŸŽ¯ O que a skill faz com esses dados</h3>
-    <p style="margin-bottom:12px">Os nÃºmeros acima viram resposta. Repare que nenhuma delas comeÃ§a pela tabela.</p>
+    <h3>ê°Å¸Å½Â¯ O que a skill faz com esses dados</h3>
+    <p style="margin-bottom:12px">Os nêÂºmeros acima viram resposta. Repare que nenhuma delas comeêÂ§a pela tabela.</p>
 <pre><span class="c"># "levo guarda-chuva hoje?"</span>
-Leva sim. A chance de chuva em Porto Alegre bate 65% entre 15h e 18h â€”
-de manhÃ£ tÃ¡ seco, mas se vocÃª voltar de tarde pega. MÃ¡xima de 21Â°C.
+Leva sim. A chance de chuva em Porto Alegre bate 65% entre 15h e 18h ê¢â¬â
+de manhêÂ£ têÂ¡ seco, mas se vocêÂª voltar de tarde pega. MêÂ¡xima de 21êÂ°C.
 
-<span class="c"># "posso gravar externa amanhÃ£ de manhÃ£?"</span>
-DÃ¡, e a manhÃ£ Ã© a melhor janela. Entre 8h e 11h fica nublado sem chuva
-(4-5%), 15-19Â°C, vento fraco de 5-6 km/h â€” nada que atrapalhe Ã¡udio.
-Depois das 12h entra garoa e o vento sobe, entÃ£o fecha antes do meio-dia.</pre>
+<span class="c"># "posso gravar externa amanhêÂ£ de manhêÂ£?"</span>
+DêÂ¡, e a manhêÂ£ êÂ© a melhor janela. Entre 8h e 11h fica nublado sem chuva
+(4-5%), 15-19êÂ°C, vento fraco de 5-6 km/h ê¢â¬â nada que atrapalhe êÂ¡udio.
+Depois das 12h entra garoa e o vento sobe, entêÂ£o fecha antes do meio-dia.</pre>
   </div>
 </div></section>
 
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
-  <h2>Onde estÃ¡ e pra onde vai</h2>
-  <p class="sub">A skill nasceu de uma conversa e cresceu por uso: o modo lote sÃ³ existe porque a pergunta "temperatura das capitais" expÃ´s que faltava.</p>
-  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>Consulta de uma cidade</strong><span>Agora, N dias (atÃ© 16), hora a hora e dia especÃ­fico. Geocoding mundial em portuguÃªs, 28 cÃ³digos WMO traduzidos com emoji, saÃ­da em Â°C / % / mm / km/h.</span></div></div>
-  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>Modo lote</strong><span>Atalho <code>capitais</code> com as 27 jÃ¡ georreferenciadas (uma requisiÃ§Ã£o, sem 27 geocodings) ou lista livre de cidades. Ordena por temperatura e calcula a amplitude.</span></div></div>
-  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>DesambiguaÃ§Ã£o honesta</strong><span>HomÃ´nimas relevantes viram aviso (Springfield tem quatro nos EUA); irrelevantes sÃ£o filtradas por populaÃ§Ã£o. No lote o rÃ³tulo mostra estado ou paÃ­s â€” porque "Nova York" casa com Nova Iorque/MaranhÃ£o, que existe.</span></div></div>
-  <div class="phase"><div class="tag">PrÃ³ximo</div><div class="d"><strong>AvaliaÃ§Ã£o com casos de teste</strong><span>O <code>evals/evals.json</code> tem quatro casos escritos com critÃ©rios; falta rodar o loop comparando com e sem a skill pra medir se o "decisÃ£o na frente" pega de verdade.</span></div></div>
-  <div class="phase"><div class="tag">Ideia</div><div class="d"><strong>Qualidade do ar e Ã­ndice UV</strong><span>A Open-Meteo tem endpoint de qualidade do ar e de UV. Encaixaria nas perguntas de saÃºde e de exposiÃ§Ã£o ao sol, que hoje ficam de fora.</span></div></div>
+  <h2>Onde estêÂ¡ e pra onde vai</h2>
+  <p class="sub">A skill nasceu de uma conversa e cresceu por uso: o modo lote sêÂ³ existe porque a pergunta "temperatura das capitais" expêÂ´s que faltava.</p>
+  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>Consulta de uma cidade</strong><span>Agora, N dias (atêÂ© 16), hora a hora e dia especêÂ­fico. Geocoding mundial em portuguêÂªs, 28 cêÂ³digos WMO traduzidos com emoji, saêÂ­da em êÂ°C / % / mm / km/h.</span></div></div>
+  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>Modo lote</strong><span>Atalho <code>capitais</code> com as 27 jêÂ¡ georreferenciadas (uma requisiêÂ§êÂ£o, sem 27 geocodings) ou lista livre de cidades. Ordena por temperatura e calcula a amplitude.</span></div></div>
+  <div class="phase"><div class="tag">Feito</div><div class="d"><strong>DesambiguaêÂ§êÂ£o honesta</strong><span>HomêÂ´nimas relevantes viram aviso (Springfield tem quatro nos EUA); irrelevantes sêÂ£o filtradas por populaêÂ§êÂ£o. No lote o rêÂ³tulo mostra estado ou paêÂ­s ê¢â¬â porque "Nova York" casa com Nova Iorque/MaranhêÂ£o, que existe.</span></div></div>
+  <div class="phase"><div class="tag">PrêÂ³ximo</div><div class="d"><strong>AvaliaêÂ§êÂ£o com casos de teste</strong><span>O <code>evals/evals.json</code> tem quatro casos escritos com critêÂ©rios; falta rodar o loop comparando com e sem a skill pra medir se o "decisêÂ£o na frente" pega de verdade.</span></div></div>
+  <div class="phase"><div class="tag">Ideia</div><div class="d"><strong>Qualidade do ar e êÂ­ndice UV</strong><span>A Open-Meteo tem endpoint de qualidade do ar e de UV. Encaixaria nas perguntas de saêÂºde e de exposiêÂ§êÂ£o ao sol, que hoje ficam de fora.</span></div></div>
 </div></section>
 
 <footer>
   <div class="wrap">
-    <div class="pill">Claude Code</div><div class="pill">Node 18+</div><div class="pill">Open-Meteo</div><div class="pill">Zero dependÃªncias</div><div class="pill">Sem API key</div>
-    <p style="margin-top:18px">clima Â· skill de previsÃ£o do tempo Â·
-      <a href="https://github.com/linnoff88-dev/clima">linnoff88-dev/clima</a> Â·
-      <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
+    <div class="pill">Claude Code</div><div class="pill">Node 18+</div><div class="pill">Open-Meteo</div><div class="pill">Zero dependêÂªncias</div><div class="pill">Sem API key</div>
+    <p style="margin-top:18px">clima êÂ· skill de previsêÂ£o do tempo êÂ·
+      <a href="https://github.com/linnoff88-dev/clima">linnoff88-dev/clima</a> êÂ·
+      <a href="https://ARCKHê AI">ARCKHê AI</a></p>
   </div>
 </footer>
 
@@ -304,10 +304,10 @@ Depois das 12h entra garoa e o vento sobe, entÃ£o fecha antes do meio-dia.</pr
   (function(){
     var KEY='clima-theme';
     var b=document.body, t=document.getElementById('themeToggle');
-    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='â˜€ï¸'; }
+    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='ê¢Ëâ¬ê¯Â¸Â'; }
     t.addEventListener('click',function(){
       var light=b.classList.toggle('light');
-      t.textContent=light?'â˜€ï¸':'ðŸŒ™';
+      t.textContent=light?'ê¢Ëâ¬ê¯Â¸Â':'ê°Å¸Åâ¢';
       localStorage.setItem(KEY, light?'light':'dark');
     });
   })();

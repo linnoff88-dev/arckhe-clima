@@ -4,34 +4,34 @@
     {
       "id": 1,
       "prompt": "levo guarda-chuva hoje?",
-      "expected_output": "Resposta direta (leva / não precisa) antes dos números, usando Porto Alegre como cidade default, com a janela de chuva do dia e temperatura em °C.",
+      "expected_output": "Resposta direta (leva / nêo precisa) antes dos números, usando Porto Alegre como cidade default, com a janela de chuva do dia e temperatura em °C.",
       "files": [],
       "assertions": [
-        { "text": "Abre com sim/não em vez de despejar a tabela", "kind": "qualitative" },
-        { "text": "Usa Porto Alegre como cidade default (usuário não disse a cidade)", "kind": "objective" },
+        { "text": "Abre com sim/nêo em vez de despejar a tabela", "kind": "qualitative" },
+        { "text": "Usa Porto Alegre como cidade default (usuário nêo disse a cidade)", "kind": "objective" },
         { "text": "Cita chance de chuva em % e a faixa de horário relevante", "kind": "objective" },
         { "text": "Temperatura em °C", "kind": "objective" }
       ]
     },
     {
       "id": 2,
-      "prompt": "posso gravar externa amanhã de manhã?",
-      "expected_output": "Recorte da manhã (chuva, vento, luz), não a previsão do dia inteiro. Deve apontar a janela boa e onde ela fecha.",
+      "prompt": "posso gravar externa amanhê de manhê?",
+      "expected_output": "Recorte da manhê (chuva, vento, luz), nêo a previsêo do dia inteiro. Deve apontar a janela boa e onde ela fecha.",
       "files": [],
       "assertions": [
-        { "text": "Consulta o detalhe hora a hora (--horas), não só o resumo diário", "kind": "objective" },
-        { "text": "Fala de vento (relevante pra áudio em externa), não só de chuva", "kind": "objective" },
+        { "text": "Consulta o detalhe hora a hora (--horas), nêo só o resumo diário", "kind": "objective" },
+        { "text": "Fala de vento (relevante pra áudio em externa), nêo só de chuva", "kind": "objective" },
         { "text": "Delimita uma janela de horário concreta", "kind": "objective" },
-        { "text": "Não despeja a previsão de 3 dias quando a pergunta é sobre uma manhã", "kind": "qualitative" }
+        { "text": "Nêo despeja a previsêo de 3 dias quando a pergunta é sobre uma manhê", "kind": "qualitative" }
       ]
     },
     {
       "id": 3,
       "prompt": "qual o melhor dia pra praia no fim de semana em Floripa?",
-      "expected_output": "Escolhe um dia e justifica; aqui a tabela comparativa vale. Cidade = Florianópolis, não a default.",
+      "expected_output": "Escolhe um dia e justifica; aqui a tabela comparativa vale. Cidade = Florianópolis, nêo a default.",
       "files": [],
       "assertions": [
-        { "text": "Usa Florianópolis (cidade da pergunta), não Porto Alegre", "kind": "objective" },
+        { "text": "Usa Florianópolis (cidade da pergunta), nêo Porto Alegre", "kind": "objective" },
         { "text": "Nomeia um dia vencedor em vez de listar os dois neutramente", "kind": "qualitative" },
         { "text": "Compara sábado e domingo lado a lado", "kind": "objective" }
       ]
@@ -42,7 +42,7 @@
       "expected_output": "Script sai com código 2; a resposta deve pedir esclarecimento ao usuário em vez de chutar outra cidade.",
       "files": [],
       "assertions": [
-        { "text": "Não inventa nem substitui por outra cidade parecida", "kind": "objective" },
+        { "text": "Nêo inventa nem substitui por outra cidade parecida", "kind": "objective" },
         { "text": "Pede ao usuário qual cidade ele quis dizer", "kind": "objective" }
       ]
     }
